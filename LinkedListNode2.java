@@ -1,10 +1,10 @@
 
-public class LinkedListNode {
+public class LinkedListNode2 {
 		int data;	
 		LinkedListNode next;
 		
 		
-		public LinkedListNode(int data){
+		public LinkedListNode2(int data){
 			this.data = data;
 			next = null;
 		}
@@ -19,7 +19,7 @@ public class LinkedListNode {
 		}
 		
 		//More
-		LinkedListNode deleteNode(LinkedListNode head, int d){
+		LinkedListNode2 deleteNode(LinkedListNode head, int d){
 			LinkedListNode n = head;
 			if(n.data == d){
 				return head.next; //moved head
